@@ -1,0 +1,5 @@
+#!/bin/sh
+# Copyright 2020 The MathWorks, Inc.
+
+cd "$HOME"
+exec /usr/bin/dbus-launch xfce4-session
