@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=MATLAB R2020b
+Name=MATLAB
 Exec=bash -c "python $HOME/.local/share/matlab_launcher.py"
 Icon=matlab_icon.png
 Terminal=false
