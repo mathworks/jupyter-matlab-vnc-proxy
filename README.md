@@ -21,13 +21,13 @@ Once you have a Jupyter environment with the `jupyter-matlab-vnc-proxy` package 
 
 ## Installation
 
-If you want to install the `jupyter-matlab-vnc-proxy` package in a Jupyter Docker® image, see [Use MATLAB Integration for Jupyter using VNC in a Docker Container](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter/tree/main/matlab-vnc). Otherwise, if you want to install the `jupyter-matlab-vnc-proxy` package into a preexisting Jupyter environment, follow the instructions below.
+If you want to install the `jupyter-matlab-vnc-proxy` package in a Jupyter Docker® image, see [Use MATLAB Integration for Jupyter Reference Architecture](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter). Otherwise, if you want to install the `jupyter-matlab-vnc-proxy` package into a preexisting Jupyter environment, follow the instructions below.
 
 To install the `jupyter-matlab-vnc-proxy` package, follow these steps in your Jupyter environment:
 
 1. Install a MATLAB 64 bit Linux version. Make sure the the installation folder is on the system path.
 2. Install software packages that MATLAB depends on and software packages that this integration depends on.
-For a list of required software packages in a Debian based distribution, inspect [this Dockerfile](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter/blob/main/matlab-vnc/Dockerfile).
+For a list of required software packages in a Debian based distribution, inspect [this section of the Dockerfile](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter/blob/cc56a716373e2c492ef4eb5d4ee05e06de7f4e67/Dockerfile#L175).
 3. Create the environment variable `NOVNC_PATH` and store in it the path to the [`noVNC`](https://github.com/novnc/noVNC) package installed in the previous step.
 4. Install the `jupyter-matlab-vnc-proxy` package by executing:
 
@@ -46,7 +46,7 @@ For more information see [GUI Launchers](https://jupyter-server-proxy.readthedoc
 
 ### Integration with JupyterHub
 
-If you want to use this integration with JupyterHub®, then you must install the `jupyter-matlab-vnc-proxy` Python package in the Jupyter environment launched by your JupyterHub platform. For example, if your JupyterHub platform launches Docker containers, then install this package in the Docker image used to launch them. You can find a reference architecture that installs the `jupyter-matlab-vnc-proxy` Python package in a Docker image in the repository [Use MATLAB Integration for Jupyter using VNC in a Docker Container](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter/tree/main/matlab-vnc).
+If you want to use this integration with JupyterHub®, then you must install the `jupyter-matlab-vnc-proxy` Python package in the Jupyter environment launched by your JupyterHub platform. For example, if your JupyterHub platform launches Docker containers, then install this package in the Docker image used to launch them. You can find a reference architecture that installs the `jupyter-matlab-vnc-proxy` Python package in a Docker image in the [ MATLAB Integration for Jupyter Reference Architecture](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter).
 
 
 ## Feedback
