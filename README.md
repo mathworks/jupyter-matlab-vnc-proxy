@@ -1,6 +1,8 @@
 
 # MATLAB Integration for Jupyter using VNC
 
+> **Note**: MathWorks is no longer actively maintaining this repository. To use MATLAB in a Jupyter environment through a VNC connection to a desktop, see the instructions in [Reference Architecture for MATLAB Integration for Jupyter](https://github.com/mathworks-ref-arch/matlab-integration-for-jupyter#build-an-image-with-the-option-to-access-desktop-using-vnc), which uses [Jupyter Remote Desktop Proxy](https://github.com/jupyterhub/jupyter-remote-desktop-proxy) instead of this package.
+
 The `jupyter-matlab-vnc-proxy` Python® package allows you to integrate MATLAB® with Jupyter®. The MATLAB integration for Jupyter using VNC allows you to connect to a Linux® desktop, with MATLAB installed, from your Jupyter environment.
 
 If you have access to MATLAB R2020b or later, we recommend using the alternative package [`jupyter-matlab-proxy`](https://github.com/mathworks/jupyter-matlab-proxy) which comes with some limitations (see [Specifications and Limitations](https://www.mathworks.com/products/matlab-online/limitations.html)). This alternative enables you to open a MATLAB desktop in a web browser tab, directly from your Jupyter environment.
